@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cdd5f693 !important;
+}
+.navbar-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 60px;
+}
+
+
+.navbar-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.titleHero {
+  color: white;
+  text-align: center;
+}
+
+.box_hero {
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/Diseño\ en\ digital.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.team {
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+.card-title {
+  text-align: center;
+  margin-top: 0.8em;
+}
+
+.card-text {
+  margin-top: -1em;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 50em;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 43.5em;
+  object-fit: contain;
+}
+
+.justify {
+  text-align: justify !important;
+  padding: 1em;
+}
+
+.carousel {
+  margin: 1em;
+  margin-bottom: 5em;
+}
+
+.carousel-item img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 600px; /* Establece una altura fija para todas las imágenes */
+  object-fit: contain; /* Ajusta la imagen para que cubra el área establecida, manteniendo su relación de aspecto */
+}
+
+.carousel-caption {
+  max-width: 60%; /* Asegura que la leyenda no sea más ancha que el contenedor */
+  padding: 0 20px; /* Añade un poco de relleno para que el texto no toque los bordes */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption .carru {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Añade un fondo semitransparente para mejorar la legibilidad */
+  border-radius: 10px; /* Opcional: redondea las esquinas del contenedor del texto */
+}
+
+.carousel-caption,
+.d-none,
+.d-md-block {
+  justify-content: center;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+
+.texto-carrusel {
+  margin: 2em 10px 6em 10px;
+}
+
+.card {
+  margin: 5em 14.5px;
+  width: 18rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  object-fit: contain; /* Asegura que la imagen se recorte sin distorsionar */
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carru {
+  background-color: #1818188e;
+}
+
+.contenido {
+  text-align: center; /* Centra el contenido del div */
+  margin: 0 2em;
+}
+
+.contenido h1 {
+  color: #333; /* Color del texto del título */
+  font-size: 28px; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Espacio inferior para separar el título del párrafo */
+  text-align: center;
+}
+
+.contenido p {
+  color: #666; /* Color del texto del párrafo */
+  font-size: 16px; /* Tamaño de fuente del párrafo */
+  line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+  text-align: justify;
+}
+
+.contenido img {
+  max-width: 55%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+  display: block; /* Elimina cualquier espacio adicional debajo de las imágenes */
+  margin: 20px auto; /* Centra las imágenes horizontalmente con un espacio entre ellas */
+}
+
+.espacio {
+  margin: 6em 0;
+}
+
+.espacio {
+  margin-top: 3em;
+}
+
+/*Footer*/
+
+#footer {
+  background-color: #24367c !important;
+}
+
+a > i {
+  color: #ffffff;
+}
+
+.center1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.iconos {
+  font-size: 0;
+}
+
+.iconos i {
+  display: inline-block;
+  font-size: 23px;
+  margin-right: 13px;
+  margin-left: 19px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  padding: 20px;
+  background-color: var(--negro);
+  color: white;
+}
+
+.center1 img {
+  width: 4em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 0 0 0 15px;
+}
+
+.center1 > a,
+.col > .sub1,
+.separacion > a {
+  color: #ffffff;
+}
+
+.center1 > a:hover,
+.col > .sub1:hover,
+.separacion > a:hover {
+  color: var(--verdecito);
+  border-bottom: 1px dashed var(--verdecito);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-column > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.logo-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.logo-column {
+  flex: 1 0 200px;
+  margin-right: 15px;
+}
+
+.info-column,
+.services-column,
+.contact-column {
+  flex: 1 0 200px;
+  margin-right: 20px;
+  
+}
+
+.abajo {
+  border-bottom: solid 3px var(--verdecito);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-column ul,
+.services-column ul,
+.contact-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-column h4,
+.services-column h4,
+.contact-column h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+a > i:hover {
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.contact-column li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-column li a {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.contact-column li i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.contact-column {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .menu-icon::before,
+  .menu-icon::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+  }
+
+  .menu-icon::before {
+    top: -6px;
+  }
+
+  .menu-icon::after {
+    bottom: -6px;
+  }
+
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.g-col-4 {
+  flex-basis: calc(25% - 20px);
+  margin: -4em 10px;
+}
+
+@media (max-width: 700px) {
+  .box_hero {
+    background-image: url(../img/file\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.carousel-caption {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption {
+    position: static;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .carousel-caption h5,
+  .carousel-caption p {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 492px) and (max-width: 700px) {
+  .services-column {
+    margin-top: 12%;
+  }
+  .info-column {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 711px) {
+  .info-column {
+    margin-top: 14%;
+  }
+  .services-column {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 491px) {
+  .services-column {
+    margin-top: 5em;
+  }
+}
+
+@media (min-width: 712px) and (max-width: 10000px) {
+  .services-column {
+    margin-top: 8%;
+  }
+  .info-column {
+    margin-top: 6.2%;
+  }
+}
+
+@media (min-width: 712px) and (max-width: 926px) {
+  .services-column {
+    margin-top: 10.5%;
+  }
+  .info-column {
+    margin-top: 6.2%;
+  }
+}
+
+@media (max-width: 839px) {
+  .carru {
+    display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 650px) {
+  .carousel {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 580px) {
+  .carousel {
+    margin-top: -4em;
+  }
+}
+
+@media (max-width: 520px) {
+  .carousel {
+    margin-top: -6em;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    margin-top: -7em;
+  }
+}
+
+@media (max-width: 828px) {
+  .texto-carrusel {
+    margin-top: -4em;
+  }
+}
+
+@media (max-width: 604px) {
+  .texto-carrusel {
+    margin-top: -7em;
+  }
+}
+
+@media (max-width: 500px) {
+  .texto-carrusel {
+    margin-top: -10em;
+  }
+}
+
+@media (max-width: 900px) {
+  .contenido img {
+    max-width: 70%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .contenido img {
+    max-width: 100%;
+  }
+}
+
